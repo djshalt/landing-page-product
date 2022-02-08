@@ -1,6 +1,17 @@
-section {
-    display: flex; flex-direction: row;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
 }
-nav {
-    display:flex
+
+.container {
+    background-color: #1f2937;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    color: #fff;
 }
